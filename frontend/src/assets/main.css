@@ -1,0 +1,31 @@
+:root {
+  --color-bg: #fff8f1;
+  --color-surface: #ffffff;
+  --color-primary: #f0873a;
+  --color-primary-dark: #d9701f;
+  --color-primary-light: #fcd9b8;
+  --color-text: #2e2a26;
+  --color-text-muted: #9a8f84;
+  --color-accent: #c9d96a;
+  --color-border: #f0dfcb;
+  --shadow-soft: 0 8px 24px rgba(217, 112, 31, 0.12);
+  --radius-lg: 20px;
+  --radius-md: 12px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'PingFang TC', 'Microsoft JhengHei', sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+}
